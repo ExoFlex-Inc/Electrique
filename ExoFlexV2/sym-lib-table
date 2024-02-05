@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name "Sensor_library")(type "KiCad")(uri "${KIPRJMOD}/Sensor_library.kicad_sym")(options "")(descr ""))
   (lib (name "ACS712")(type "KiCad")(uri "C:/exoflex/Electrique/ACS712/ACS712.kicad_sym")(options "")(descr ""))
+  (lib (name "SymLib")(type "KiCad")(uri "${KIPRJMOD}/SymLib.kicad_sym")(options "")(descr ""))
 )

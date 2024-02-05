@@ -429,7 +429,7 @@
       "model_mode": 0,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "${KICAD_USER_TEMPLATE_DIR}/Title block 3.kicad_wks",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
@@ -442,12 +442,40 @@
       ""
     ],
     [
-      "0f39fbe7-4373-48dc-9f63-14fa36e46946",
-      "Stepper"
+      "928739ca-daba-4629-b242-9362dda9a457",
+      "BLOCK DIAGRAM                                                                                                     2"
+    ],
+    [
+      "a277fdc8-c4ec-4343-9da9-d1578cb8824a",
+      "POWER                                                                                                              3"
+    ],
+    [
+      "495246b3-4400-4c4b-b17b-cd4a6f1cc20e",
+      "STM SIGNALS                                                                                                        4"
+    ],
+    [
+      "573a0c21-7a8a-4125-add8-4701611cf3dd",
+      "MOTOR ENCODER                                                                                                    5"
+    ],
+    [
+      "107edd66-5154-4ce5-b948-efcecf470704",
+      "MAGNETIC ENCODER                                                                                                 6"
+    ],
+    [
+      "5562c264-010c-4c40-912a-3bffdadc8e11",
+      "LOAD CELLS                                                                                                         7"
     ],
     [
       "acaf37ba-b1f6-483f-9a15-dc7d7c6730ea",
-      "Sensors"
+      "LIMIT SWITCH                                                                                                        8"
+    ],
+    [
+      "48d85acc-aa93-4ccf-89f1-1eff4bc54e1e",
+      "PROXIMITY SENSORS                                                                                                 9                                                                                       "
+    ],
+    [
+      "8b665f06-12b4-4576-b809-494e364bece5",
+      "OTHER SENSORS                                                                                                    10"
     ]
   ],
   "text_variables": {}
