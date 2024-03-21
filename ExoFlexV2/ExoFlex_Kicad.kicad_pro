@@ -352,7 +352,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "FootPrintLib"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -443,39 +445,59 @@
     ],
     [
       "928739ca-daba-4629-b242-9362dda9a457",
-      "BLOCK DIAGRAM                                                                                                     2"
+      "BLOCK DIAGRAM"
     ],
     [
       "a277fdc8-c4ec-4343-9da9-d1578cb8824a",
-      "POWER                                                                                                              3"
+      "POWER"
     ],
     [
       "495246b3-4400-4c4b-b17b-cd4a6f1cc20e",
-      "STM SIGNALS                                                                                                        4"
+      "STM SIGNALS"
     ],
     [
-      "573a0c21-7a8a-4125-add8-4701611cf3dd",
-      "MOTOR ENCODER                                                                                                    5"
+      "57f70a2d-9e7f-41f1-96a8-d0beb69c7236",
+      "CONNECTORS"
+    ],
+    [
+      "a015e859-e065-47e4-9796-a8e85722fd58",
+      "SECURITY MANAGER"
     ],
     [
       "107edd66-5154-4ce5-b948-efcecf470704",
-      "MAGNETIC ENCODER                                                                                                 6"
-    ],
-    [
-      "5562c264-010c-4c40-912a-3bffdadc8e11",
-      "LOAD CELLS                                                                                                         7"
+      "MAGNETIC ENCODER"
     ],
     [
       "acaf37ba-b1f6-483f-9a15-dc7d7c6730ea",
-      "LIMIT SWITCH                                                                                                        8"
+      "MAX LIMIT SWITCH"
     ],
     [
-      "48d85acc-aa93-4ccf-89f1-1eff4bc54e1e",
-      "PROXIMITY SENSORS                                                                                                 9                                                                                       "
+      "573a0c21-7a8a-4125-add8-4701611cf3dd",
+      "MOTOR ENCODER"
+    ],
+    [
+      "5562c264-010c-4c40-912a-3bffdadc8e11",
+      "LOAD CELLS"
+    ],
+    [
+      "5427dc9b-bbd9-4fff-ada5-610df9aff936",
+      "MOTOR TORQUE"
+    ],
+    [
+      "acfbc001-660d-4a7a-9840-b5fa3bdad085",
+      "RIGHTLEFT SENSOR"
+    ],
+    [
+      "fd467641-bf5b-43f8-ad18-db302504ab6d",
+      "PROXIMITY SENSORS"
+    ],
+    [
+      "9ab86716-2d4f-4872-8d40-ec24b7737f0b",
+      "TEMPERATURE SENSOR"
     ],
     [
       "8b665f06-12b4-4576-b809-494e364bece5",
-      "OTHER SENSORS                                                                                                    10"
+      "OTHER SENSORS"
     ]
   ],
   "text_variables": {}
