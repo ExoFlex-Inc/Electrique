@@ -1,0 +1,98 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "MCP6001T-I_OT" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at 2.54 3.175 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "MCP6001T-I_OT" (id 1) (at 2.54 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "MCP6001T-I_OT:SOT95P270X145-5N" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Microchip" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DESCRIPTION" "MCP6001 Series 6 V 1 MHz 0.6 V/us SMT Low-Power Operational Amplifier - SOT-23-5" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PACKAGE" "SOT-23 Microchip" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PRICE" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "MCP6001T-I/OT" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "AVAILABILITY" "Unavailable" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "MCP6001T-I_OT_0_0"
+      (polyline
+        (pts (xy -5.08 5.08) (xy -5.08 -5.08)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy -5.08 -5.08) (xy 5.08 0.0)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy 5.08 0.0) (xy -5.08 5.08)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy -3.81 3.175) (xy -3.81 1.905)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -4.445 2.54) (xy -3.175 2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -4.445 -2.54) (xy -3.175 -2.54)) (stroke (width 0.1524))
+      )
+      (text "V+" (at 1.27 3.175 900)
+        (effects (font (size 0.8128 0.8128)) (justify bottom left))
+      )
+      (text "V-" (at 1.27 -4.445 900)
+        (effects (font (size 0.8128 0.8128)) (justify bottom left))
+      )
+      (pin input line (at -7.62 -2.54 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -7.62 2.54 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 7.62 0.0 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 0.0 7.62 270.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 0.0 -7.62 90.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
