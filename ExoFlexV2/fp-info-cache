@@ -1,4 +1,4 @@
-21076283821437739
+21090036298572291
 Arduino_MountingHole
 MountingHole_1.2mm
 Mounting Hole 2.1mm, no annular
@@ -52983,6 +52983,13 @@ SODFL3618X110N
 2
 2
 FootPrint
+SOIC127P600X175-16N
+
+
+0
+16
+16
+FootPrint
 SOT-23-3_DBZ_TEX
 
 PTSM36ADBZR 
@@ -52991,6 +52998,13 @@ PTSM36ADBZR
 3
 FootPrint
 SOT95P270X145-5N
+
+
+0
+5
+5
+FootPrint
+SOT95P280X145-5N
 
 
 0
@@ -53024,6 +53038,20 @@ TPS7A470
 0
 21
 21
+FootPrint
+TRIM_3362P-1-102LF
+
+
+0
+3
+3
+FootPrint
+TRIM_3362P-1-103LF
+
+
+0
+3
+3
 FootPrint
 TerminalBlock14AWG
 
@@ -53333,6 +53361,13 @@ SODFL3618X110N
 2
 2
 FootPrintLib
+SOIC127P600X175-16N
+
+
+0
+16
+16
+FootPrintLib
 SOT-23-3_DBZ_TEX
 
 PTSM36ADBZR 
@@ -53341,6 +53376,13 @@ PTSM36ADBZR
 3
 FootPrintLib
 SOT95P270X145-5N
+
+
+0
+5
+5
+FootPrintLib
+SOT95P280X145-5N
 
 
 0
@@ -53374,6 +53416,20 @@ TPS7A470
 0
 21
 21
+FootPrintLib
+TRIM_3362P-1-102LF
+
+
+0
+3
+3
+FootPrintLib
+TRIM_3362P-1-103LF
+
+
+0
+3
+3
 FootPrintLib
 TerminalBlock14AWG
 

@@ -525,7 +525,11 @@
     ],
     [
       "8b665f06-12b4-4576-b809-494e364bece5",
-      "GROUNDS"
+      "MUX FOR DIGITAL"
+    ],
+    [
+      "86d3b0c0-01cf-4180-b4fa-1f02d33aa58f",
+      "MUX FOR ANALOG"
     ]
   ],
   "text_variables": {}
