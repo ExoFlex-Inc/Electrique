@@ -1,0 +1,18 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 2391cb62-808d-4aa8-a790-b5debeeae2fe)
+
+  (paper "A4")
+
+  (title_block
+    (title "BUMBLEBEE")
+    (date "2024-01-15")
+    (rev "1.00")
+    (company "ExoFlex")
+    (comment 1 "Bumblebee")
+  )
+
+  (lib_symbols
+  )
+
+)
