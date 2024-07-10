@@ -1,6 +1,6 @@
 (kicad_sch (version 20211123) (generator eeschema)
 
-  (uuid 360fc71c-8002-43b5-8f6a-13879df4cb93)
+  (uuid 243bc482-25c6-4020-bd75-cba081d35661)
 
   (paper "A4")
 
@@ -713,6 +713,11 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 3976370e-ebd8-4216-a1c6-bc81f2d63aa1)
   )
+  (polyline (pts (xy 220.98 34.29) (xy 220.98 57.15))
+    (stroke (width 0.5) (type dash) (color 255 148 44 1))
+    (uuid 3b535fd5-8a73-45c5-88e5-4cb2282bf426)
+  )
+
   (wire (pts (xy 205.74 113.03) (xy 198.12 113.03))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 3cb23cea-20d0-49dc-a104-05edaeaf498d)
@@ -869,6 +874,11 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 6b1dc56a-4059-4a85-8892-80bd61f91f15)
   )
+  (polyline (pts (xy 281.94 34.29) (xy 281.94 57.15))
+    (stroke (width 0.5) (type dash) (color 255 148 44 1))
+    (uuid 6b91aa53-0051-4925-ad8f-c7ce2661b298)
+  )
+
   (wire (pts (xy 153.67 45.72) (xy 153.67 50.8))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 6bdb91b2-11f7-415d-9562-a860a7c71f37)
@@ -1093,6 +1103,11 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid b7140fe4-7bd8-4d87-93da-9e99b64ac1c4)
   )
+  (polyline (pts (xy 220.98 34.29) (xy 281.94 34.29))
+    (stroke (width 0.5) (type dash) (color 255 148 44 1))
+    (uuid b8c4dd4b-499f-46f0-9d28-075aa533233b)
+  )
+
   (wire (pts (xy 149.86 36.83) (xy 153.67 36.83))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid b99e5371-ca06-4c09-bf24-083fda3bd060)
@@ -1161,6 +1176,11 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid cd2187d4-3fe5-423b-a079-de890bb8eb38)
   )
+  (polyline (pts (xy 281.94 57.15) (xy 220.98 57.15))
+    (stroke (width 0.5) (type dash) (color 255 148 44 1))
+    (uuid cfe30407-44d5-4cd7-9ac1-cfaee865d981)
+  )
+
   (wire (pts (xy 102.87 149.86) (xy 102.87 154.94))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid d0e2b0fd-044f-4986-ad7a-606dd688a367)
@@ -1320,6 +1340,12 @@
   (wire (pts (xy 46.99 137.16) (xy 69.85 137.16))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid fff262b8-bba9-400a-84d1-cf09ae7b0238)
+  )
+
+  (text "5xORGate : 5V @ 160,05mA\n7x100k : 5V @ 0,35mA\n7x200k : 5V @ 0,175mA\n\nTotal current : 5V @ 162mA"
+    (at 223.52 54.61 0)
+    (effects (font (size 2.25 2.25) (thickness 0.5) bold) (justify left bottom))
+    (uuid 0a8b282a-1fa0-451f-985d-18e0bf5ec3ce)
   )
 
   (global_label "M_CAN_BUS_INT" (shape input) (at 104.14 149.86 0) (fields_autoplaced)

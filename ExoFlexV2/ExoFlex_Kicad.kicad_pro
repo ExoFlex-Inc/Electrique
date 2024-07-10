@@ -445,7 +445,11 @@
     ],
     [
       "a277fdc8-c4ec-4343-9da9-d1578cb8824a",
-      "POWER"
+      "POWER SECURITY"
+    ],
+    [
+      "c976a2f7-7d0f-4504-8726-9da2ab397f5e",
+      "POWER TREE"
     ],
     [
       "495246b3-4400-4c4b-b17b-cd4a6f1cc20e",
@@ -482,6 +486,14 @@
     [
       "5562c264-010c-4c40-912a-3bffdadc8e11",
       "TORQUE SENSOR"
+    ],
+    [
+      "22d0a00c-d9ef-47c7-abd0-c80dbdd0172a",
+      "TORQUE SENSOR (NEG)"
+    ],
+    [
+      "9eff6a2c-83d8-41a8-8c02-f62220b9becf",
+      "TORQUE SENSOR (ADC)"
     ],
     [
       "acaf37ba-b1f6-483f-9a15-dc7d7c6730ea",
@@ -530,6 +542,10 @@
     [
       "86d3b0c0-01cf-4180-b4fa-1f02d33aa58f",
       "MUX FOR ANALOG"
+    ],
+    [
+      "0e7bdf7b-adba-4bb1-b69d-a40568243bc4",
+      "DECOUPLING"
     ]
   ],
   "text_variables": {}

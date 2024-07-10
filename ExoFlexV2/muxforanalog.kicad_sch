@@ -1,6 +1,6 @@
 (kicad_sch (version 20211123) (generator eeschema)
 
-  (uuid db0cb0f6-b33e-431b-af98-f9f4d470601f)
+  (uuid 0b3fbe9b-5a32-4587-8a5d-bdc091fe9f0d)
 
   (paper "A4")
 
@@ -211,10 +211,20 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 0a74fe26-05e5-40d8-a001-b52556b1519b)
   )
+  (polyline (pts (xy 281.94 54.61) (xy 220.98 54.61))
+    (stroke (width 0.5) (type dash) (color 255 148 44 1))
+    (uuid 13dc0ea6-7e8a-40f6-a09d-8b5bf4937d3f)
+  )
+
   (wire (pts (xy 162.56 101.6) (xy 156.21 101.6))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 2073a60b-421c-4d73-bbb3-5ec147a31612)
   )
+  (polyline (pts (xy 220.98 35.56) (xy 220.98 54.61))
+    (stroke (width 0.5) (type dash) (color 255 148 44 1))
+    (uuid 2484ea01-7376-4037-9c34-483a73512b47)
+  )
+
   (wire (pts (xy 162.56 59.69) (xy 156.21 59.69))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 26493c5d-4a69-4e1c-b6b1-d17a769855e4)
@@ -243,6 +253,11 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 6b85748d-fe97-4e02-9516-76263b1c9e38)
   )
+  (polyline (pts (xy 281.94 35.56) (xy 281.94 54.61))
+    (stroke (width 0.5) (type dash) (color 255 148 44 1))
+    (uuid 88c08a87-9311-4e80-91d6-28aad7725251)
+  )
+
   (wire (pts (xy 135.89 90.17) (xy 162.56 90.17))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 8a50f938-1ead-4a70-8e4f-9d6d0e607011)
@@ -251,6 +266,11 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 8e528d9a-ee04-458d-beff-e8d79d2826d7)
   )
+  (polyline (pts (xy 220.98 35.56) (xy 281.94 35.56))
+    (stroke (width 0.5) (type dash) (color 255 148 44 1))
+    (uuid a061bebf-cf93-4387-8922-81b925f4c1a5)
+  )
+
   (wire (pts (xy 100.33 62.23) (xy 135.89 62.23))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid ac966d42-d80a-4215-840e-3a6648981c35)
@@ -294,6 +314,11 @@
   (wire (pts (xy 135.89 99.06) (xy 135.89 90.17))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid ffc34c76-558a-49d7-8ffc-ca5410eeae07)
+  )
+
+  (text "2xMUX8_1 : 5V @ 100mA\n\nTotal current : 5V @ 100mA" (at 223.52 50.8 0)
+    (effects (font (size 2.25 2.25) (thickness 0.5) bold) (justify left bottom))
+    (uuid 6198701b-80b7-4571-987c-564a591f567c)
   )
 
   (global_label "ANA_LIM_DATA" (shape input) (at 156.21 111.76 0) (fields_autoplaced)
