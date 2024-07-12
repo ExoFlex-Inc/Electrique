@@ -236,6 +236,18 @@
     )
   )
 
+  (sheet (at 76.2 152.4) (size 53.34 3.81)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid a62cc549-72b5-4529-816c-a9bab6c803f5)
+    (property "Sheet name" "TEST POINTS" (id 0) (at 76.2 154.94 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "testpoint.kicad_sch" (id 1) (at 76.2 156.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+  )
+
   (sheet (at 76.2 86.36) (size 53.34 3.81)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -372,6 +384,7 @@
     (path "/8b665f06-12b4-4576-b809-494e364bece5" (page "25"))
     (path "/86d3b0c0-01cf-4180-b4fa-1f02d33aa58f" (page "26"))
     (path "/0e7bdf7b-adba-4bb1-b69d-a40568243bc4" (page "27"))
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5" (page "28"))
   )
 
   (symbol_instances
@@ -1927,6 +1940,9 @@
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/5562c264-010c-4c40-912a-3bffdadc8e11/9eab58e2-a876-4e6c-8907-9d406b238fdb"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/a0688a31-1b9b-46b9-bbd9-6860f5527e8d"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/5702c39b-0b7a-44eb-adf8-c58e41a7815b/a27c1c78-d9f3-43c6-b0f6-7847c508ef4c"
@@ -4311,314 +4327,467 @@
     (path "/107edd66-5154-4ce5-b948-efcecf470704/f45d343c-eb61-4221-a172-da7e3158ee79"
       (reference "RV?") (unit 1) (value "523Ω") (footprint "FootPrint:TRIM_3362P-1-102LF")
     )
-    (path "/a277fdc8-c4ec-4343-9da9-d1578cb8824a/13ec49e4-36a0-40f9-8034-c8507d2225ec"
-      (reference "TP1") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/00acee53-e463-4b22-8649-79c5b95bcfc6"
+      (reference "TP?") (unit 1) (value "URG_SEC") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/a015e859-e065-47e4-9796-a8e85722fd58/e50178f3-f28c-4118-93de-51319b331cf1"
-      (reference "TP4") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/0370777b-f20b-452a-b7d3-e575122baa2b"
+      (reference "TP?") (unit 1) (value "R2FSR2") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/fd467641-bf5b-43f8-ad18-db302504ab6d/00a2af2f-1ae7-43ee-8bcd-203b5257f1ed"
-      (reference "TP5") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/03ad7378-f7e6-4d83-963d-2b4a680405d9"
+      (reference "TP?") (unit 1) (value "R1DAMP2") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/a277fdc8-c4ec-4343-9da9-d1578cb8824a/3a7686aa-ac27-4ea5-ba72-382d1c0efeed"
-      (reference "TP6") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/044e7e28-82e1-41be-a956-4416377e1142"
+      (reference "TP?") (unit 1) (value "SGFSR3") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/a277fdc8-c4ec-4343-9da9-d1578cb8824a/c789feb3-8d51-488d-a4a4-44577d979fcb"
-      (reference "TP8") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/0608757e-fd9f-4a54-b5eb-f3d5b5865cba"
+      (reference "TP?") (unit 1) (value "R1FSR1") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/107edd66-5154-4ce5-b948-efcecf470704/26394eca-0d6a-4324-a4be-91750186bec1"
-      (reference "TP10") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/0892d178-80bf-4944-8d0c-129a2ffa55b4"
+      (reference "TP?") (unit 1) (value "SGAMP1") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/107edd66-5154-4ce5-b948-efcecf470704/f20334ce-9d4d-4576-b406-23d96324493a"
-      (reference "TP11") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/09c2af92-76ca-48cb-8dd7-532f04665693"
+      (reference "TP?") (unit 1) (value "ADCTOR2") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/107edd66-5154-4ce5-b948-efcecf470704/ef41607a-5b55-4f49-8f2e-bfd5269ac604"
-      (reference "TP12") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/0cc4366d-2b1d-4cae-aa73-033b8c6a4124"
+      (reference "TP?") (unit 1) (value "CAN_TD") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/107edd66-5154-4ce5-b948-efcecf470704/99899aea-54a7-4160-929a-b65cd5ea7198"
-      (reference "TP13") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/0d6bfead-5781-42d9-98de-8afc0f4ade03"
+      (reference "TP?") (unit 1) (value "LFSR2") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/107edd66-5154-4ce5-b948-efcecf470704/49ebb30b-4d00-4152-8f6f-cb8461e2849d"
-      (reference "TP14") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/0d71ccb5-0836-4e51-af32-48e74d1993cb"
+      (reference "TP?") (unit 1) (value "SLCPOS") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/107edd66-5154-4ce5-b948-efcecf470704/846e7f67-1049-4e14-abb9-e8292de6af16"
-      (reference "TP15") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/1057d7d3-9d91-400c-9527-dc13a3282831"
+      (reference "TP?") (unit 1) (value "5VA") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/107edd66-5154-4ce5-b948-efcecf470704/4edac6a0-1fdf-4b2c-9d1a-f89aeead0b35"
-      (reference "TP16") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/11d65ceb-ef5a-4b46-bae6-693d43be98a9"
+      (reference "TP?") (unit 1) (value "SALIM") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/107edd66-5154-4ce5-b948-efcecf470704/7cde871f-8fca-4de1-b530-0418c280a35c"
-      (reference "TP17") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/15b6f5c6-f42f-4938-a067-d42c2da56b30"
+      (reference "TP?") (unit 1) (value "R2DAMP3") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/107edd66-5154-4ce5-b948-efcecf470704/f3267439-22f6-4957-8069-e7b3864258b7"
-      (reference "TP18") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/168afcc0-68a5-4f25-9f36-6641e8f94906"
+      (reference "TP?") (unit 1) (value "R1FSR2") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/107edd66-5154-4ce5-b948-efcecf470704/7e420c96-1094-4f37-8865-00d39796e34d"
-      (reference "TP19") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/173afd84-fd22-408e-ac51-695763408d16"
+      (reference "TP?") (unit 1) (value "CAMP3") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/5562c264-010c-4c40-912a-3bffdadc8e11/89011415-f760-46aa-8994-8a3e17a32394"
-      (reference "TP20") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/1ce0b4bd-aa6a-4511-979c-2ce5a064657b"
+      (reference "TP?") (unit 1) (value "R1DANA2") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/5562c264-010c-4c40-912a-3bffdadc8e11/41afb1da-eb02-46d5-a6d0-0d9498d1b49c"
-      (reference "TP21") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/1ddd8f06-0eba-424e-9344-a156babffbfe"
+      (reference "TP?") (unit 1) (value "SBUTPROX") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/5562c264-010c-4c40-912a-3bffdadc8e11/e12b3c7e-8e33-428d-8d8b-d8654a57c1c2"
-      (reference "TP22") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/1fd215fb-fe3b-4821-b4dc-5c90b4b1236c"
+      (reference "TP?") (unit 1) (value "R2DLAMP2") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/5562c264-010c-4c40-912a-3bffdadc8e11/3331d5c9-0ee5-4b7f-b6db-c8e2b69d15bd"
-      (reference "TP23") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/224c2b35-fc05-42b9-90e2-f83e7a378b72"
+      (reference "TP?") (unit 1) (value "R2SOM2") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/5562c264-010c-4c40-912a-3bffdadc8e11/9c767cdc-d6a8-45d4-83a6-4dced2f5b81c"
-      (reference "TP24") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/2572da43-b388-4f96-b7a0-6520e310bc2e"
+      (reference "TP?") (unit 1) (value "CLC1") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/5562c264-010c-4c40-912a-3bffdadc8e11/d98dc7b6-995f-4b81-8de2-26892803a981"
-      (reference "TP25") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/27801c57-2a9c-4fb1-9525-77091178abb5"
+      (reference "TP?") (unit 1) (value "GND") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/5562c264-010c-4c40-912a-3bffdadc8e11/78113324-f946-41a6-a0a0-d1750bd6726c"
-      (reference "TP26") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/284355fc-ddab-407d-9c26-2b85a0ac8c10"
+      (reference "TP?") (unit 1) (value "CAMP2") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/5562c264-010c-4c40-912a-3bffdadc8e11/18e60f3e-62e8-4eb1-bef6-d9f1aa5a729f"
-      (reference "TP27") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/2adf0eaa-2dda-45ec-aed3-3778a30716f6"
+      (reference "TP?") (unit 1) (value "R2DLAMP1") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/5562c264-010c-4c40-912a-3bffdadc8e11/2af048df-11f8-48b0-bae3-be04c73f08c8"
-      (reference "TP28") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/2b355dbc-4d17-440c-935c-18ecd1504f26"
+      (reference "TP?") (unit 1) (value "LTOR1") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/5562c264-010c-4c40-912a-3bffdadc8e11/032117f3-7a73-4166-98bb-3d0f5159842e"
-      (reference "TP29") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/2c8c3af8-d67b-4f1f-b49a-265d34f74d2b"
+      (reference "TP?") (unit 1) (value "SBUTPOS") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/acaf37ba-b1f6-483f-9a15-dc7d7c6730ea/6be9969a-f5d4-470b-b69a-04b1fad91a47"
-      (reference "TP30") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/2d04e834-76ed-435c-a60b-4d7b0bfef8a1"
+      (reference "TP?") (unit 1) (value "LLC3") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/acaf37ba-b1f6-483f-9a15-dc7d7c6730ea/12b3eb8e-0b60-45fe-aad3-cbf2a9617027"
-      (reference "TP31") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/30a2db9a-b219-494e-ac48-0bad1de33751"
+      (reference "TP?") (unit 1) (value "BUTPOS3") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/acaf37ba-b1f6-483f-9a15-dc7d7c6730ea/e7e958aa-0861-48ab-8538-eeb2d2c5adf9"
-      (reference "TP32") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/35b9595a-1179-4f3f-8199-b7cf5e6ffdbf"
+      (reference "TP?") (unit 1) (value "LLC2") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/acaf37ba-b1f6-483f-9a15-dc7d7c6730ea/c145936c-bb0c-4ac2-9487-41475e346d52"
-      (reference "TP33") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/36de3057-d5e5-4a51-a1eb-0bbef16857c1"
+      (reference "TP?") (unit 1) (value "SSWMAX") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/acaf37ba-b1f6-483f-9a15-dc7d7c6730ea/e0c9cc7e-6e9c-4466-90a6-e3c3b3904346"
-      (reference "TP34") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/379654b6-14c2-420d-b184-83d9a20893b7"
+      (reference "TP?") (unit 1) (value "GND") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/acaf37ba-b1f6-483f-9a15-dc7d7c6730ea/81ead35d-f7b3-46c0-9a89-2e7db32983e9"
-      (reference "TP35") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/37de7892-5d98-4c3c-86a0-4a8207828bfa"
+      (reference "TP?") (unit 1) (value "R1DLAMP1") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/acaf37ba-b1f6-483f-9a15-dc7d7c6730ea/1c8bd991-e8c1-4043-9633-59ce8d901b8c"
-      (reference "TP36") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/38298aef-87ef-4197-968b-6989a793943b"
+      (reference "TP?") (unit 1) (value "BUTPOS2") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/acaf37ba-b1f6-483f-9a15-dc7d7c6730ea/77a7c1ec-2902-4e2a-b1cc-588b7c1c5d2d"
-      (reference "TP37") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/39668cdb-8f4d-4ef3-b679-62fae3241fd6"
+      (reference "TP?") (unit 1) (value "R2EM2") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/acfbc001-660d-4a7a-9840-b5fa3bdad085/083658ed-1e2e-4d28-947b-9f25951ee47e"
-      (reference "TP38") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/3ad6b414-b1ba-4227-a329-ee1dc6c8f618"
+      (reference "TP?") (unit 1) (value "SINT3") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/acfbc001-660d-4a7a-9840-b5fa3bdad085/250a3a16-f5ca-4844-b301-7b51aad7dc47"
-      (reference "TP39") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/3e6b591c-924c-493b-9839-a200a2cb921b"
+      (reference "TP?") (unit 1) (value "R1DLTOR3") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/acfbc001-660d-4a7a-9840-b5fa3bdad085/4b0615e5-8f4d-4ec2-8ab5-6c7c35ff9ab0"
-      (reference "TP40") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/3eb0af6d-da59-4b35-8fb9-ccff20b04ef1"
+      (reference "TP?") (unit 1) (value "R1ATT1") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/fd467641-bf5b-43f8-ad18-db302504ab6d/4bc6411d-6506-416e-a8d2-f11313b0c5a7"
-      (reference "TP41") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/3f3c9588-bbb5-4fa4-b8fd-81f0f6b048aa"
+      (reference "TP?") (unit 1) (value "R2DAMP1") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/fd467641-bf5b-43f8-ad18-db302504ab6d/9a5b06a8-1efd-4a08-bb20-e79566baddfb"
-      (reference "TP42") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/4103d6e6-a0fb-466e-b0f1-69f74db9bd9f"
+      (reference "TP?") (unit 1) (value "ADCTOR1") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/fd467641-bf5b-43f8-ad18-db302504ab6d/e01d3bbc-9d41-449a-a222-368be08d18cf"
-      (reference "TP43") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/44e35c2a-0e46-4e3c-82f5-5a59d8f734d1"
+      (reference "TP?") (unit 1) (value "SGAMP3") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/fd467641-bf5b-43f8-ad18-db302504ab6d/d65d1670-c2df-4ead-a2f1-93ff26879008"
-      (reference "TP44") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/48cf931f-cee0-48e6-b5ea-5956aeab3c16"
+      (reference "TP?") (unit 1) (value "BUTPOS1") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/fd467641-bf5b-43f8-ad18-db302504ab6d/24464481-2c82-4215-8eeb-7940963b7f9c"
-      (reference "TP45") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/48d27dfd-b2d3-4724-b5cb-3a7ea4ad5f5b"
+      (reference "TP?") (unit 1) (value "SINT1") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/fd467641-bf5b-43f8-ad18-db302504ab6d/9c49adb9-358f-4221-899f-cc7cd8ee7c1d"
-      (reference "TP46") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/4a54bd72-0ed5-434e-9d04-931ec5f1ba11"
+      (reference "TP?") (unit 1) (value "STEMP") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/fd467641-bf5b-43f8-ad18-db302504ab6d/b0589bfd-1c83-402b-bbe5-8186900672bf"
-      (reference "TP47") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/4c8e81bc-3ae1-4051-9b60-3037ae779847"
+      (reference "TP?") (unit 1) (value "R2RE1") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/9ab86716-2d4f-4872-8d40-ec24b7737f0b/aa7b2364-0813-49cd-9c5a-2490e5ad54fd"
-      (reference "TP48") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/4d2fad74-7098-4c36-9213-00ca4e08b21e"
+      (reference "TP?") (unit 1) (value "GND") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/9ab86716-2d4f-4872-8d40-ec24b7737f0b/8fd02bc5-564b-42e4-bf80-7ad9d79580a7"
-      (reference "TP49") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/4e3882aa-5047-4176-be5c-e00a6a826445"
+      (reference "TP?") (unit 1) (value "RELAY") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/9ab86716-2d4f-4872-8d40-ec24b7737f0b/91839610-a44a-40c9-b762-6b0db0434188"
-      (reference "TP50") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/4ed27ae1-f667-4696-a858-f9ff323a6046"
+      (reference "TP?") (unit 1) (value "SWMAX3") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/9ab86716-2d4f-4872-8d40-ec24b7737f0b/18badcb8-0298-4d44-b7f3-f4d7ae749a62"
-      (reference "TP51") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/507d4d36-a7c5-447b-a4e7-f522ba785fca"
+      (reference "TP?") (unit 1) (value "R2EM1") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/c20c62a0-6a2f-4f2f-91fd-e0eaf44933a6/4b1ec94a-36da-4217-8734-c5e026efe12c"
-      (reference "TP62") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/50928a1d-7c3e-43c6-9a99-4988fbca5a89"
+      (reference "TP?") (unit 1) (value "R1SOM3") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/c20c62a0-6a2f-4f2f-91fd-e0eaf44933a6/70555572-2f0b-4485-9a68-971b91f1f2bf"
-      (reference "TP63") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/526126c8-9c7e-4461-9173-bcdeaa5f8e1b"
+      (reference "TP?") (unit 1) (value "LATCH") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/c20c62a0-6a2f-4f2f-91fd-e0eaf44933a6/7a37be82-1d54-4f31-a3aa-6b6743fcd412"
-      (reference "TP64") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/55ce7863-b36b-46de-a39a-a6807642e621"
+      (reference "TP?") (unit 1) (value "GND") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/c20c62a0-6a2f-4f2f-91fd-e0eaf44933a6/e588d9e6-8b46-4d36-b8ed-65b6993b984b"
-      (reference "TP65") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/5ace9daa-fe51-4026-a234-30d6a63f5129"
+      (reference "TP?") (unit 1) (value "CTOR3") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/c20c62a0-6a2f-4f2f-91fd-e0eaf44933a6/7a6de6c4-1046-46c5-9bff-88184b3d9ed3"
-      (reference "TP66") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/5dd92b22-f8f3-42f1-af7b-a6caf4070299"
+      (reference "TP?") (unit 1) (value "LAMP2") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/c20c62a0-6a2f-4f2f-91fd-e0eaf44933a6/3f8f7b8b-5622-4f27-827d-de867a309da6"
-      (reference "TP67") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/5f6c0d3c-0234-4dc4-b073-2544986b3619"
+      (reference "TP?") (unit 1) (value "R2ATT2") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/c20c62a0-6a2f-4f2f-91fd-e0eaf44933a6/99c70a76-9be1-4003-b0cd-654699cb8f4c"
-      (reference "TP68") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/611306ae-3a9b-4fc9-90c1-f916274b8de4"
+      (reference "TP?") (unit 1) (value "R1DANA1") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/c20c62a0-6a2f-4f2f-91fd-e0eaf44933a6/fdc88435-4619-4663-b7d0-b208a520a907"
-      (reference "TP69") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/62d1836a-ed3d-4e16-b2ff-a0826bdb8004"
+      (reference "TP?") (unit 1) (value "GND") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/c20c62a0-6a2f-4f2f-91fd-e0eaf44933a6/f2652cb1-a573-4872-babe-4402a49c7a37"
-      (reference "TP70") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/638dd70e-60d3-4a86-ac47-1e64abe54ad3"
+      (reference "TP?") (unit 1) (value "R1SOM2") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/c20c62a0-6a2f-4f2f-91fd-e0eaf44933a6/4ab4a581-0739-4b8a-a752-e8c59427bbe1"
-      (reference "TP71") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/661c4290-414f-4a7b-9300-55e36bcd6ed2"
+      (reference "TP?") (unit 1) (value "R2DLTOR2") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/0e384811-58e6-4f9c-a2a1-a22a541b034a/70016541-6872-41c3-be0b-adde810d522d"
-      (reference "TP72") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/67a82311-7178-4bce-9002-0443b22ed0e1"
+      (reference "TP?") (unit 1) (value "R1DAMP3") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/0e384811-58e6-4f9c-a2a1-a22a541b034a/32fd7a8e-f681-40fa-881b-cfbf22373ce0"
-      (reference "TP73") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/6985fe6a-80be-4437-9fda-c99c4825678f"
+      (reference "TP?") (unit 1) (value "GND") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/0e384811-58e6-4f9c-a2a1-a22a541b034a/c5bb2e9f-0a96-49f6-9b7c-de6c242bb2e1"
-      (reference "TP74") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/6a8faf0c-dbcc-4ac3-988a-177b21398f22"
+      (reference "TP?") (unit 1) (value "R1SOM1") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/0e384811-58e6-4f9c-a2a1-a22a541b034a/89825d3c-8c3c-4ff6-a5de-2f94f841bb00"
-      (reference "TP75") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/6b1a5806-c8a9-4e59-8cb2-172d7e549243"
+      (reference "TP?") (unit 1) (value "5VA-") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/5702c39b-0b7a-44eb-adf8-c58e41a7815b/7b86aee0-7571-4106-8534-493c219352e4"
-      (reference "TP76") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/6db2e837-f50e-4dcb-b41d-5375a087a052"
+      (reference "TP?") (unit 1) (value "R1RE1") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/5702c39b-0b7a-44eb-adf8-c58e41a7815b/e85d476b-6457-451d-a103-573e27b25135"
-      (reference "TP77") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/6e29c9a1-9339-4fe1-8069-8f2b51116eda"
+      (reference "TP?") (unit 1) (value "R2FSR1") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/5702c39b-0b7a-44eb-adf8-c58e41a7815b/3503d88b-58e4-4196-a1e9-0d236dc37f65"
-      (reference "TP78") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/6eeda4ab-c3e3-4392-8d2e-f277c3213e6b"
+      (reference "TP?") (unit 1) (value "BUTPROXR2") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/5702c39b-0b7a-44eb-adf8-c58e41a7815b/8f393410-6b9f-4a1c-be2e-001a9026c850"
-      (reference "TP79") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/6f8eb3d8-1ab7-4d17-8cec-21f42fb0e760"
+      (reference "TP?") (unit 1) (value "STOR") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/5702c39b-0b7a-44eb-adf8-c58e41a7815b/9698e816-b886-41b5-bb28-10a266030730"
-      (reference "TP80") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/6fef41a0-cd5a-49bd-8ab2-d72a3063a0fd"
+      (reference "TP?") (unit 1) (value "R1IST3") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/5702c39b-0b7a-44eb-adf8-c58e41a7815b/6120eabc-391c-4a57-a3a9-dded9eb9c3fe"
-      (reference "TP81") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/6ffc0241-7990-4b35-b3ef-1dd2a40e2935"
+      (reference "TP?") (unit 1) (value "LTOR2") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/5702c39b-0b7a-44eb-adf8-c58e41a7815b/0b6889a0-c8b8-40bf-94de-5372596156e9"
-      (reference "TP82") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/71777833-800c-422d-b205-1742776739e9"
+      (reference "TP?") (unit 1) (value "R2DAMP2") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/5702c39b-0b7a-44eb-adf8-c58e41a7815b/72fe6354-f851-4c11-a5a5-fc67cdcbb6ef"
-      (reference "TP83") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/78c13244-1e66-4fea-91f2-29298fd1da2e"
+      (reference "TP?") (unit 1) (value "SWMAX5") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/5702c39b-0b7a-44eb-adf8-c58e41a7815b/7a11581b-0815-4542-a441-079342457f27"
-      (reference "TP84") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/7a3d9ab7-5ab9-40a9-aa1d-0fc3a816806a"
+      (reference "TP?") (unit 1) (value "LTEMP1") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/5702c39b-0b7a-44eb-adf8-c58e41a7815b/0e7605b6-5474-4a16-80f9-8eeb7db85dc2"
-      (reference "TP85") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/7bbc2263-c27a-4718-a84f-37adaf65cd19"
+      (reference "TP?") (unit 1) (value "CAMP1") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/9ab86716-2d4f-4872-8d40-ec24b7737f0b/9c6eec16-c9b2-4a00-bd2d-c6e21b449c61"
-      (reference "TP86") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/7cf17f1a-b4a6-4a39-ba25-99f8621c2117"
+      (reference "TP?") (unit 1) (value "BUTPROXR1") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/9ab86716-2d4f-4872-8d40-ec24b7737f0b/83cee042-6f96-4414-92db-52449dec6c4a"
-      (reference "TP87") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/7d49bfaa-01d0-4dd9-9fef-eb421ae31ef7"
+      (reference "TP?") (unit 1) (value "BUTPROXL2") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/9ab86716-2d4f-4872-8d40-ec24b7737f0b/5fc794d2-187a-4799-b383-c0478f84fef6"
-      (reference "TP88") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/7f166086-6707-4f33-a5e2-ead093675780"
+      (reference "TP?") (unit 1) (value "DSW&INT") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/78f23aa8-1c53-487e-be28-8d70b8708d73/a58715ed-24f9-44df-b8dd-f43bb928dbef"
-      (reference "TP89") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/7f7d7383-181c-4322-838d-0e210884b123"
+      (reference "TP?") (unit 1) (value "R1DLAMP3") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/78f23aa8-1c53-487e-be28-8d70b8708d73/c0155bed-30eb-4597-9d56-674a8b479e97"
-      (reference "TP90") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/80d141be-9f59-4640-91fb-773059d2e300"
+      (reference "TP?") (unit 1) (value "SALIM") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/78f23aa8-1c53-487e-be28-8d70b8708d73/d4cc17a0-0309-4b5a-ad2a-b956c4425825"
-      (reference "TP91") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/80d5e750-c292-4780-9975-b3e391e49095"
+      (reference "TP?") (unit 1) (value "R1IST1") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/78f23aa8-1c53-487e-be28-8d70b8708d73/4c2419d5-e3b6-4362-87e8-dabc3022246f"
-      (reference "TP92") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/81125338-8b38-4145-be77-25d53c119b49"
+      (reference "TP?") (unit 1) (value "RESET") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/78f23aa8-1c53-487e-be28-8d70b8708d73/fb48f2fd-f1bc-4071-b133-1b91f434ecb1"
-      (reference "TP93") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/81bd00fe-df48-4dea-8bbc-8fd6b389eaef"
+      (reference "TP?") (unit 1) (value "R1ATT2") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/78f23aa8-1c53-487e-be28-8d70b8708d73/41483fdf-23a8-4734-8107-186041ca0c16"
-      (reference "TP94") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/828ea288-5cba-4684-8e6a-70248a2c8f89"
+      (reference "TP?") (unit 1) (value "SGLC3") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/78f23aa8-1c53-487e-be28-8d70b8708d73/89df424b-8831-4e81-b32b-58ef6e96eae2"
-      (reference "TP95") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/82bf4f55-e2ed-4138-9d66-adae3f59cd01"
+      (reference "TP?") (unit 1) (value "R1DLAMP2") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/0e8df0f4-974e-416b-ab7e-36d79d0fa1f8/270102c5-cbf7-4a6a-b618-a7a0268d11fe"
-      (reference "TP96") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/833f60f3-c113-4b0d-b57b-38560303a1d4"
+      (reference "TP?") (unit 1) (value "R1DAMP1") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/0e8df0f4-974e-416b-ab7e-36d79d0fa1f8/459289c4-e63d-4d57-a093-00b4c415eced"
-      (reference "TP97") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/8612b785-6893-4f5c-be07-ffde647301c5"
+      (reference "TP?") (unit 1) (value "R2SOM1") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/0e8df0f4-974e-416b-ab7e-36d79d0fa1f8/8e15a381-1857-46d7-b972-15cfa39b25da"
-      (reference "TP98") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/86673950-cb87-4511-a858-e71963c119bf"
+      (reference "TP?") (unit 1) (value "SGFSR2") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/0e8df0f4-974e-416b-ab7e-36d79d0fa1f8/18efa28d-9539-40a3-a65d-ac33ed55b48c"
-      (reference "TP99") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/87493f3f-a80b-4951-a5ea-a6cacaac8a57"
+      (reference "TP?") (unit 1) (value "CLC2") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/0e8df0f4-974e-416b-ab7e-36d79d0fa1f8/6ba6deca-9c34-4ab5-bfb0-663f91cdb798"
-      (reference "TP100") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/881105fb-637e-4692-aeee-43d01029df7b"
+      (reference "TP?") (unit 1) (value "SGTEMP1") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/0e8df0f4-974e-416b-ab7e-36d79d0fa1f8/e78c5158-b025-4335-831e-5b364a2d6634"
-      (reference "TP101") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/88401066-9580-42f5-bdd9-0512353ea21e"
+      (reference "TP?") (unit 1) (value "SGLC2") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/0e8df0f4-974e-416b-ab7e-36d79d0fa1f8/eedcba1a-bc6a-49d8-9990-742fab469010"
-      (reference "TP102") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/89fea041-0071-492e-be08-f793c50ab433"
+      (reference "TP?") (unit 1) (value "LTEMP2") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/088e6ac5-f1dc-4924-8510-861b4ce6e72f/7c84617d-45c0-45af-89a4-b0c172d103e0"
-      (reference "TP103") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/8c6001ad-31e8-4444-8d6d-f3afbf46a14f"
+      (reference "TP?") (unit 1) (value "SWMIN1") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/088e6ac5-f1dc-4924-8510-861b4ce6e72f/26e098e9-548e-423e-b73f-db4eee1f7fc0"
-      (reference "TP104") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/91fbef9f-d704-4d9b-b7ff-cf903eedff34"
+      (reference "TP?") (unit 1) (value "R2IST3") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/088e6ac5-f1dc-4924-8510-861b4ce6e72f/7a0de912-b200-40ad-8d45-5057680d59ed"
-      (reference "TP105") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/92283d11-7753-4976-ac46-c7cb0a0e37ca"
+      (reference "TP?") (unit 1) (value "GND") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/088e6ac5-f1dc-4924-8510-861b4ce6e72f/65559373-6efe-4f30-aa4e-49fc4e3a4829"
-      (reference "TP106") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/92378e94-b99d-40e4-949f-818c67786101"
+      (reference "TP?") (unit 1) (value "SOPTO") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/088e6ac5-f1dc-4924-8510-861b4ce6e72f/5be87c0e-94fe-4613-bd4a-c2b7d8b7a873"
-      (reference "TP107") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/96fed781-86dd-4343-9003-fae4633cd194"
+      (reference "TP?") (unit 1) (value "R2RE2") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/088e6ac5-f1dc-4924-8510-861b4ce6e72f/49a0ca97-fc8a-4740-a9e6-edb4474a3e39"
-      (reference "TP108") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/9e0b7ccd-2b04-42df-901c-2720e083609e"
+      (reference "TP?") (unit 1) (value "SWMIN3") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/088e6ac5-f1dc-4924-8510-861b4ce6e72f/84994c8a-c409-463a-84ea-3a8e357b3cae"
-      (reference "TP109") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/9f1a339b-0640-4b19-9451-5d3408a51406"
+      (reference "TP?") (unit 1) (value "CLC3") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/088e6ac5-f1dc-4924-8510-861b4ce6e72f/a1db19a5-2289-4d93-b54f-e2b8196e30bd"
-      (reference "TP110") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/a352fefe-4f07-4f0f-ba2a-70d8b12ab5e3"
+      (reference "TP?") (unit 1) (value "OPTO1") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/c976a2f7-7d0f-4504-8726-9da2ab397f5e/021319d4-3cdf-4f2f-a190-30ee56d1a708"
-      (reference "TP?") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/a567fee8-884c-4327-81fa-f4f56d0be130"
+      (reference "TP?") (unit 1) (value "SR&L") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/9eff6a2c-83d8-41a8-8c02-f62220b9becf/4ffe94b8-b1a2-4c4a-8576-f6ad1ac7264d"
-      (reference "TP?") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/a8fcd564-2c08-4ecd-93a2-6ab6e7e0a0ff"
+      (reference "TP?") (unit 1) (value "R1FSR3") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/9eff6a2c-83d8-41a8-8c02-f62220b9becf/5882b007-8e93-476f-bd02-d96bb885b13e"
-      (reference "TP?") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/a91f6aa6-f847-43a4-aeb2-0b603d33e09c"
+      (reference "TP?") (unit 1) (value "CTEMP1") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/9eff6a2c-83d8-41a8-8c02-f62220b9becf/65253673-8fdd-4387-9073-14d4bdd0a7c5"
-      (reference "TP?") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/aa8fe354-2aad-40a1-8260-9ff269b11156"
+      (reference "TP?") (unit 1) (value "GND") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/c976a2f7-7d0f-4504-8726-9da2ab397f5e/70504f50-fb45-41bd-9b6f-819e428325eb"
-      (reference "TP?") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/aac4a440-1490-450d-ba64-5d51b222093f"
+      (reference "TP?") (unit 1) (value "SWMAX2") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/a277fdc8-c4ec-4343-9da9-d1578cb8824a/8dae58a7-2702-43f1-b28e-7e4c26186916"
-      (reference "TP?") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/ab76413d-a6ca-4f86-a919-541b1818423c"
+      (reference "TP?") (unit 1) (value "BUTPROXL1") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/c976a2f7-7d0f-4504-8726-9da2ab397f5e/b5db6b02-2257-4b51-8b0b-836ff6cb4ff2"
-      (reference "TP?") (unit 1) (value "5005") (footprint "FootPrint:KEYSTONE_5005")
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/ac1e8352-3d3e-4f6c-ad4a-dddeaf2272f8"
+      (reference "TP?") (unit 1) (value "GND") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/acfa0c95-95e7-4aab-9d62-51888b0dde0c"
+      (reference "TP?") (unit 1) (value "R1EM1") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/ad59de1e-c80a-4322-8352-5c18628cc952"
+      (reference "TP?") (unit 1) (value "LTOR3") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/ae339483-b5b8-42d6-9f4d-c32b4d71fc06"
+      (reference "TP?") (unit 1) (value "SWMAX4") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/b1e12c27-f171-4d3f-a0c6-a82428a061af"
+      (reference "TP?") (unit 1) (value "SGAMP2") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/b2b1590b-295b-4607-8f34-b4179d67885e"
+      (reference "TP?") (unit 1) (value "R2SOM3") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/b37bce14-4c63-4bae-a8a7-179e8a35bf91"
+      (reference "TP?") (unit 1) (value "GND") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/b50413f6-02e2-4974-8185-bfedc6c65245"
+      (reference "TP?") (unit 1) (value "GND") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/b73f78b3-f3e5-4323-8985-0353859876c3"
+      (reference "TP?") (unit 1) (value "SGFSR1") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/b7bc2fbb-be07-4fff-a7e9-d7097f7ba131"
+      (reference "TP?") (unit 1) (value "CFSR1") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/b864b279-fb28-47e9-8935-5244a8192aa2"
+      (reference "TP?") (unit 1) (value "R2ATT1") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/b8c0ead4-9595-4c38-833d-c8fac273fe58"
+      (reference "TP?") (unit 1) (value "24V") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/bcbefb6d-f61b-4104-94ba-1b42884d165e"
+      (reference "TP?") (unit 1) (value "SINT2") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/c0de7fdf-1b23-4ac9-95bf-9e1e9dac04f8"
+      (reference "TP?") (unit 1) (value "CAN_RD") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/c34e2607-2541-4313-9369-323fabd5f20c"
+      (reference "TP?") (unit 1) (value "R1IST2") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/c35049b0-b1bf-4bfe-a79c-3112bc2616a1"
+      (reference "TP?") (unit 1) (value "SGTOR2") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/c93b8598-fe2c-4b41-8c78-548413563bda"
+      (reference "TP?") (unit 1) (value "R1ATT3") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/cc8e2362-2582-4701-9043-7b6be7c3bf3c"
+      (reference "TP?") (unit 1) (value "SAMP") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/ce448903-f547-441d-8a73-bedc774b097e"
+      (reference "TP?") (unit 1) (value "OPTO2") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/cf248d13-1401-4a08-a9db-9873910b393a"
+      (reference "TP?") (unit 1) (value "R1EM2") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/d053609f-22e3-406f-820b-badab65ce90c"
+      (reference "TP?") (unit 1) (value "R1DLTOR1") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/d1a52e64-656d-43e4-a589-9154e84756f1"
+      (reference "TP?") (unit 1) (value "R2DLTOR1") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/d1e54d3c-e3bf-4da4-8d54-5754a3ab7762"
+      (reference "TP?") (unit 1) (value "CFSR2") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/d44c3da6-db04-481c-a05e-44d387e81e0e"
+      (reference "TP?") (unit 1) (value "R2ATT3") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/d457dd9e-b552-416e-8289-30b2ba8e054d"
+      (reference "TP?") (unit 1) (value "SGTEMP2") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/d669679c-d47f-44b8-9b2a-f1d8e8685384"
+      (reference "TP?") (unit 1) (value "5VNUM") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/d6aecae0-3600-4301-8bb6-541c22dd108e"
+      (reference "TP?") (unit 1) (value "R2DANA1") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/d6d7a9c6-5c4e-41f8-bd47-5ad6a4a72419"
+      (reference "TP?") (unit 1) (value "SGTOR1") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/d815079b-c9ad-4ad4-aa27-6c633d8dc29c"
+      (reference "TP?") (unit 1) (value "CTEMP2") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/d94bb01e-f74e-47dd-89d6-b2fabcb59584"
+      (reference "TP?") (unit 1) (value "R2FSR3") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/dcae5c95-ace1-480a-b9ef-cd48d9d2f13e"
+      (reference "TP?") (unit 1) (value "LAMP3") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/df691c8f-a8ce-46a1-a127-86ef173b6f39"
+      (reference "TP?") (unit 1) (value "SGTOR3") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/e0293f01-48ff-4cdf-9d3c-8ac656f93a43"
+      (reference "TP?") (unit 1) (value "CTOR2") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/e0cc8ed9-b763-464b-8d04-5af58dbe6935"
+      (reference "TP?") (unit 1) (value "CAMP1") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/e1e36798-dc28-4ce6-8474-6a313fac764b"
+      (reference "TP?") (unit 1) (value "LFSR1") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/e3334808-3eab-47bb-9c89-364a1f4bb31a"
+      (reference "TP?") (unit 1) (value "R1RE2") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/e52b43e6-8b49-454c-8f65-04a752d7b8c1"
+      (reference "TP?") (unit 1) (value "SGLC1") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/e86e7a1b-d8ae-4bca-bf23-98f7536c98a9"
+      (reference "TP?") (unit 1) (value "SWMIN2") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/ea1d88ab-e6e9-4cb5-a501-e5595caaf6a1"
+      (reference "TP?") (unit 1) (value "R1DLTOR2") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/ea58f280-2529-473c-a2bc-b96d2bb32d86"
+      (reference "TP?") (unit 1) (value "GND") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/eadfe2f6-f28b-4728-8565-2955cfd97deb"
+      (reference "TP?") (unit 1) (value "LLC1") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/ed266004-b845-4d2b-81e2-d8b1b32b0b89"
+      (reference "TP?") (unit 1) (value "SWMAX1") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/ed289a62-328d-4262-9738-6f69d0402e98"
+      (reference "TP?") (unit 1) (value "LAMP1") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/efa24cde-8600-4478-8c6d-d2344cfba9fb"
+      (reference "TP?") (unit 1) (value "R2IST1") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/efae497e-4fd2-4892-ac41-b924a7798126"
+      (reference "TP?") (unit 1) (value "R2SOM3") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/f09ccf99-38b5-4212-9473-07175c512aae"
+      (reference "TP?") (unit 1) (value "R2DANA2") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/f2cf56d8-9a81-4e12-960c-9c0e6b4a2118"
+      (reference "TP?") (unit 1) (value "R2DLAMP3") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/f3e990b9-82c1-4306-b88e-6649cc4ca9df"
+      (reference "TP?") (unit 1) (value "CFSR3") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/f5c133cb-0091-4035-895a-18cb9ab1bf13"
+      (reference "TP?") (unit 1) (value "R2DLTOR3") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/f6ba74f7-81c1-470e-a23d-c49c3719d17e"
+      (reference "TP?") (unit 1) (value "R2IST2") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/f718300f-c923-4859-ba96-70e743cf7bfa"
+      (reference "TP?") (unit 1) (value "SFSR") (footprint "FootPrint:KEYSTONE_5005")
+    )
+    (path "/a62cc549-72b5-4529-816c-a9bab6c803f5/ff42a760-8fdd-4126-93bb-fc94f8f759ed"
+      (reference "TP?") (unit 1) (value "LFSR3") (footprint "FootPrint:KEYSTONE_5005")
     )
     (path "/a277fdc8-c4ec-4343-9da9-d1578cb8824a/2fea2d28-55a3-45d5-aabb-797f00d028f1"
       (reference "U1") (unit 1) (value "PTSM36ADBZR") (footprint "FootPrint:SOT-23-3_DBZ_TEX")

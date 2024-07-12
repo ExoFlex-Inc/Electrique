@@ -1099,6 +1099,11 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 263b90b3-5505-4589-8c38-1c370f9cbaac)
   )
+  (polyline (pts (xy 48.26 168.91) (xy 48.26 195.58))
+    (stroke (width 0.25) (type solid) (color 0 0 0 0))
+    (uuid 295c8e98-d0a9-4358-a8b5-51d383aa44f4)
+  )
+
   (wire (pts (xy 53.34 78.74) (xy 58.42 78.74))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 2970910a-6b9a-42f5-897f-07d0ead159b1)
@@ -1139,6 +1144,11 @@
     (stroke (width 0.5) (type default) (color 255 74 249 1))
     (uuid 34d79524-ab11-4210-b038-835167008eaa)
   )
+  (polyline (pts (xy 172.72 168.91) (xy 172.72 195.58))
+    (stroke (width 0.25) (type solid) (color 0 0 0 0))
+    (uuid 352806e1-fffe-4bc4-86df-2be251087fac)
+  )
+
   (wire (pts (xy 128.27 96.52) (xy 132.08 96.52))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 37f08bfd-59b2-4211-9f64-aebdb618e46a)
@@ -1296,6 +1306,11 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 8befcb7e-ad71-4a1b-af3f-32ec9c31357c)
   )
+  (polyline (pts (xy 48.26 168.91) (xy 172.72 168.91))
+    (stroke (width 0.25) (type solid) (color 0 0 0 0))
+    (uuid 91f49f67-481f-414a-a354-e393a7684d5c)
+  )
+
   (wire (pts (xy 50.8 107.95) (xy 58.42 107.95))
     (stroke (width 0.5) (type default) (color 255 115 33 1))
     (uuid 928900f3-09b0-4c8b-a8b4-2f4061e5e66b)
@@ -1468,6 +1483,11 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid e7072ffa-23ef-490e-80f0-cbd6636a815e)
   )
+  (polyline (pts (xy 172.72 195.58) (xy 48.26 195.58))
+    (stroke (width 0.25) (type solid) (color 0 0 0 0))
+    (uuid ea770863-12d7-40da-b94c-b1a9fa114078)
+  )
+
   (wire (pts (xy 27.94 88.9) (xy 27.94 91.44))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid ed10026a-b616-4fb4-b4bb-955116efd6e9)
@@ -1494,6 +1514,10 @@
     (uuid faadbe09-b513-47b0-9e65-a0f3926f005e)
   )
 
+  (text "Notes :" (at 49.53 172.72 0)
+    (effects (font (size 2 2)) (justify left bottom))
+    (uuid 390b8143-f6e9-4d3e-8894-915cc556fc05)
+  )
   (text "STM32 : 5V @ 500mA\nPI5 : 5V @ 5A\n\nTotal Current : 5V @ 5,5A"
     (at 223.52 158.75 0)
     (effects (font (size 2.25 2.25) (thickness 0.45) bold) (justify left bottom))
