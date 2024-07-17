@@ -1,4 +1,4 @@
-21131326133962219
+21145145035852495
 Arduino_MountingHole
 MountingHole_1.2mm
 Mounting Hole 2.1mm, no annular
@@ -52906,7 +52906,21 @@ SN74LVC1G32DRLR
 5
 5
 FootPrint
+EUW7
+
+PTN78060WAH 
+0
+7
+7
+FootPrint
 INDC2012X145N
+
+
+0
+2
+2
+FootPrint
+IND_LQH2HPN4R7MDRL
 
 
 0
@@ -52982,6 +52996,20 @@ PTN78000
 0
 5
 5
+FootPrint
+SAMTEC_SSW-115-01-G-D
+
+
+0
+30
+30
+FootPrint
+SAMTEC_SSW-117-01-G-D
+
+
+0
+34
+34
 FootPrint
 SN74AUP
 
@@ -53368,7 +53396,21 @@ SN74LVC1G32DRLR
 5
 5
 FootPrintLib
+EUW7
+
+PTN78060WAH 
+0
+7
+7
+FootPrintLib
 INDC2012X145N
+
+
+0
+2
+2
+FootPrintLib
+IND_LQH2HPN4R7MDRL
 
 
 0
@@ -53444,6 +53486,20 @@ PTN78000
 0
 5
 5
+FootPrintLib
+SAMTEC_SSW-115-01-G-D
+
+
+0
+30
+30
+FootPrintLib
+SAMTEC_SSW-117-01-G-D
+
+
+0
+34
+34
 FootPrintLib
 SN74AUP
 
