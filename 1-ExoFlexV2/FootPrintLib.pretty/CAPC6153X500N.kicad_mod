@@ -24,7 +24,7 @@
     (solder_mask_margin 0.102) (tstamp 83992db6-f086-42e9-a9c4-954142df3518))
   (pad "2" smd rect (at 2.603 0) (size 2 5.52) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.102) (tstamp 13d7ae7d-7e92-4aea-b78c-619d119cc6e5))
-  (model "${KIPRJMOD}/STEP/KCM55TR7YA336MH01L.step"
+  (model "${KIPRJMOD}/1-STEP/KCM55TR7YA336MH01L.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

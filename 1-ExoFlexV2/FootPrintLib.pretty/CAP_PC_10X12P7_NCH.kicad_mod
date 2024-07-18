@@ -84,7 +84,7 @@
       )
     )
   )
-  (model "${KIPRJMOD}/STEP/CAP_PC_10X12P7_NCH.step"
+  (model "${KIPRJMOD}/1-STEP/CAP_PC_10X12P7_NCH.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

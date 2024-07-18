@@ -32,7 +32,7 @@
     (solder_mask_margin 0.102) (tstamp 92062085-540c-4102-9752-9df0d1e43897))
   (pad "04" thru_hole circle (at 12.5 -5.7) (size 1.65 1.65) (drill 1.1) (layers *.Cu *.Mask)
     (solder_mask_margin 0.102) (tstamp 87aa6c46-cb19-4a45-97c5-dc8167793ad2))
-  (model "${KIPRJMOD}/STEP/1751112.step"
+  (model "${KIPRJMOD}/1-STEP/1751112.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

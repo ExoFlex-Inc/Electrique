@@ -90,7 +90,7 @@
   (pad "6" smd rect (at 2.21615 0.325001) (size 1.3335 0.4318) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 080d5318-add4-4371-bffb-5255167af070))
   (pad "7" smd rect (at 2.21615 -0.325001) (size 1.3335 0.4318) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp db9c3bd2-a52f-4b82-a055-f68947faf3e7))
   (pad "8" smd rect (at 2.21615 -0.974999) (size 1.3335 0.4318) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c4859a09-7d0d-400f-95c5-555c6a2e559e))
-  (model "${KIPRJMOD}/STEP/DGK0008A.stp"
+  (model "${KIPRJMOD}/1-STEP/DGK0008A.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

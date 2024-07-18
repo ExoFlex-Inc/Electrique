@@ -81,7 +81,7 @@
       )
     )
   )
-  (model "${KIPRJMOD}/STEP/T491B105K035AT.step"
+  (model "${KIPRJMOD}/1-STEP/T491B105K035AT.step"
     (offset (xyz 1.75 1.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))
