@@ -1,4 +1,4 @@
-21155632600633119
+21190074599484425
 Arduino_MountingHole
 MountingHole_1.2mm
 Mounting Hole 2.1mm, no annular
@@ -52759,6 +52759,13 @@ T491B105K035AT
 2
 2
 FootPrint
+CAPMP3216X180N
+
+
+0
+2
+2
+FootPrint
 CAP_20SVPK220M
 
 
@@ -52997,12 +53004,47 @@ PHOENIX_1751125
 5
 5
 FootPrint
+PHOENIX_1755736
+
+
+0
+2
+2
+FootPrint
+PHOENIX_1755749
+
+
+0
+3
+3
+FootPrint
+PHOENIX_1755752
+
+
+0
+4
+4
+FootPrint
+PHOENIX_1755765
+
+
+0
+5
+5
+FootPrint
 PTN78000
 
 
 0
 5
 5
+FootPrint
+PTN78060WAD
+
+
+0
+7
+7
 FootPrint
 SAMTEC_SSW-108-01-G-D
 
@@ -53109,6 +53151,13 @@ SODFL3618X110N
 2
 2
 FootPrint
+SOIC127P599X175-8N
+
+
+0
+8
+8
+FootPrint
 SOIC127P600X175-16N
 
 
@@ -53144,6 +53193,13 @@ SOT403-1_NXP
 16
 16
 FootPrint
+T03B_TEX
+
+LM338T/NOPB 
+0
+3
+3
+FootPrint
 TBAT54_LM
 
 TBAT54_LM 
@@ -53165,12 +53221,26 @@ TE_282837-3
 3
 3
 FootPrint
+TO92260P482H934-3N
+
+
+0
+3
+3
+FootPrint
 TPS7A470
 
 
 0
 21
 21
+FootPrint
+TRIM_3296W-1-501LF
+
+
+0
+3
+3
 FootPrint
 TRIM_3362P-1-102LF
 
@@ -53270,6 +53340,13 @@ T491B105K035AT
 2
 2
 FootPrintLib
+CAPMP3216X180N
+
+
+0
+2
+2
+FootPrintLib
 CAP_20SVPK220M
 
 
@@ -53508,12 +53585,47 @@ PHOENIX_1751125
 5
 5
 FootPrintLib
+PHOENIX_1755736
+
+
+0
+2
+2
+FootPrintLib
+PHOENIX_1755749
+
+
+0
+3
+3
+FootPrintLib
+PHOENIX_1755752
+
+
+0
+4
+4
+FootPrintLib
+PHOENIX_1755765
+
+
+0
+5
+5
+FootPrintLib
 PTN78000
 
 
 0
 5
 5
+FootPrintLib
+PTN78060WAD
+
+
+0
+7
+7
 FootPrintLib
 SAMTEC_SSW-108-01-G-D
 
@@ -53620,6 +53732,13 @@ SODFL3618X110N
 2
 2
 FootPrintLib
+SOIC127P599X175-8N
+
+
+0
+8
+8
+FootPrintLib
 SOIC127P600X175-16N
 
 
@@ -53655,6 +53774,13 @@ SOT403-1_NXP
 16
 16
 FootPrintLib
+T03B_TEX
+
+LM338T/NOPB 
+0
+3
+3
+FootPrintLib
 TBAT54_LM
 
 TBAT54_LM 
@@ -53676,12 +53802,26 @@ TE_282837-3
 3
 3
 FootPrintLib
+TO92260P482H934-3N
+
+
+0
+3
+3
+FootPrintLib
 TPS7A470
 
 
 0
 21
 21
+FootPrintLib
+TRIM_3296W-1-501LF
+
+
+0
+3
+3
 FootPrintLib
 TRIM_3362P-1-102LF
 

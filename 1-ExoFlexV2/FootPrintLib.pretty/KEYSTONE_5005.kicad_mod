@@ -15,7 +15,7 @@
   (fp_circle (center 0 0) (end 1.59 0) (layer "F.Fab") (width 0.127) (fill none) (tstamp 57fe5b4a-5b36-4006-9937-c31c1652c1e8))
   (pad "TP" thru_hole circle (at 0 0) (size 2.4 2.4) (drill 1.6) (layers *.Cu *.Mask)
     (solder_mask_margin 0.102) (tstamp c43fef51-c09e-4b44-871a-99429b188c2e))
-  (model "${KIPRJMOD}/STEP/5005.step"
+  (model "${KIPRJMOD}/1-STEP/5005.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
