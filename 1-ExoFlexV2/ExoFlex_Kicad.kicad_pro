@@ -485,6 +485,10 @@
       "MAGNETIC ENCODER"
     ],
     [
+      "a62cc549-72b5-4529-816c-a9bab6c803f5",
+      "MAGNETIC ENCODER (ADC)"
+    ],
+    [
       "5562c264-010c-4c40-912a-3bffdadc8e11",
       "TORQUE SENSOR"
     ],
@@ -543,10 +547,6 @@
     [
       "0e7bdf7b-adba-4bb1-b69d-a40568243bc4",
       "DECOUPLING"
-    ],
-    [
-      "a62cc549-72b5-4529-816c-a9bab6c803f5",
-      "TEST POINTS"
     ]
   ],
   "text_variables": {}
