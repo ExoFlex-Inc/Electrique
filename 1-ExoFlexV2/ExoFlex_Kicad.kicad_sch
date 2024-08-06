@@ -451,9 +451,6 @@
     (path "/a277fdc8-c4ec-4343-9da9-d1578cb8824a/3ccda4ef-07cf-43e5-8218-d03955c5ec56"
       (reference "#PWR017") (unit 1) (value "GND") (footprint "")
     )
-    (path "/a277fdc8-c4ec-4343-9da9-d1578cb8824a/75a48527-5e78-47aa-98ae-f557e193857e"
-      (reference "#PWR018") (unit 1) (value "GND") (footprint "")
-    )
     (path "/c976a2f7-7d0f-4504-8726-9da2ab397f5e/10a0a6ea-f714-4501-aeb4-44370b889ead"
       (reference "#PWR019") (unit 1) (value "+24V") (footprint "")
     )
@@ -1960,6 +1957,9 @@
     (path "/0e7bdf7b-adba-4bb1-b69d-a40568243bc4/7b4384db-2cd4-4539-b9d5-884ce3e1228c"
       (reference "#PWR0520") (unit 1) (value "GND") (footprint "")
     )
+    (path "/a015e859-e065-47e4-9796-a8e85722fd58/8a04dc7b-b1ef-4dcb-9a53-62cfe7437b7e"
+      (reference "#PWR0521") (unit 1) (value "GND") (footprint "")
+    )
     (path "/088e6ac5-f1dc-4924-8510-861b4ce6e72f/224aca35-adc3-4e97-86ee-16a0708541d6"
       (reference "#PWR0536") (unit 1) (value "GND") (footprint "")
     )
@@ -2887,9 +2887,6 @@
     (path "/a277fdc8-c4ec-4343-9da9-d1578cb8824a/6e0eabc3-7591-4305-80a8-de2c09df5232"
       (reference "J3") (unit 1) (value "14 AWG") (footprint "FootPrintLib:PHOENIX_1755736")
     )
-    (path "/a277fdc8-c4ec-4343-9da9-d1578cb8824a/7a334e9f-ecc7-4f9f-bf00-0408c7d957f6"
-      (reference "J4") (unit 1) (value "14 AWG") (footprint "FootPrintLib:PHOENIX_1755736")
-    )
     (path "/c976a2f7-7d0f-4504-8726-9da2ab397f5e/42038aab-fb53-42a3-91f8-fc99453b5737"
       (reference "J5") (unit 1) (value "Jumper") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
@@ -3120,6 +3117,9 @@
     )
     (path "/c976a2f7-7d0f-4504-8726-9da2ab397f5e/bf9a2bfd-03e6-4544-be8c-44400a6c6dac"
       (reference "J81") (unit 1) (value "14 AWG") (footprint "FootPrintLib:PHOENIX_1755736")
+    )
+    (path "/a015e859-e065-47e4-9796-a8e85722fd58/7ecf4295-d6fd-41b7-8264-cea4bead5a03"
+      (reference "J82") (unit 1) (value "Jumper") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/5562c264-010c-4c40-912a-3bffdadc8e11/63a48cb9-2b76-4ef6-bc19-9d22474ce71a"
       (reference "J84") (unit 1) (value "Jumper") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
@@ -4123,9 +4123,6 @@
     (path "/a277fdc8-c4ec-4343-9da9-d1578cb8824a/24a93106-ddb0-4474-8b4a-3a15bb5a2b56"
       (reference "TP3") (unit 1) (value "TestPoint") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/a277fdc8-c4ec-4343-9da9-d1578cb8824a/3433f285-b8a5-49bc-bde4-fb578e277743"
-      (reference "TP4") (unit 1) (value "TestPoint") (footprint "FootPrint:KEYSTONE_5005")
-    )
     (path "/a277fdc8-c4ec-4343-9da9-d1578cb8824a/9dc0e21b-374d-40ec-88e3-6966a601278d"
       (reference "TP5") (unit 1) (value "TestPoint") (footprint "FootPrint:KEYSTONE_5005")
     )
@@ -4177,26 +4174,8 @@
     (path "/0e7bdf7b-adba-4bb1-b69d-a40568243bc4/c73ff347-0d78-4380-a3a2-98330690e602"
       (reference "TP21") (unit 1) (value "TestPoint") (footprint "FootPrint:KEYSTONE_5005")
     )
-    (path "/0e7bdf7b-adba-4bb1-b69d-a40568243bc4/67991d4b-a153-4486-9620-150d030175e2"
-      (reference "TP22") (unit 1) (value "TestPoint") (footprint "FootPrint:KEYSTONE_5005")
-    )
-    (path "/0e7bdf7b-adba-4bb1-b69d-a40568243bc4/4ef3d498-f83a-4850-a4a2-f935e8fae9a9"
-      (reference "TP23") (unit 1) (value "TestPoint") (footprint "FootPrint:KEYSTONE_5005")
-    )
     (path "/a015e859-e065-47e4-9796-a8e85722fd58/f2c24b18-e0bf-4645-8a6b-6250b6fbf4fd"
       (reference "TP24") (unit 1) (value "TestPoint") (footprint "FootPrint:KEYSTONE_5005")
-    )
-    (path "/0e7bdf7b-adba-4bb1-b69d-a40568243bc4/048ffb85-5871-4c94-8b14-5a7bf02a8558"
-      (reference "TP25") (unit 1) (value "TestPoint") (footprint "FootPrint:KEYSTONE_5005")
-    )
-    (path "/0e7bdf7b-adba-4bb1-b69d-a40568243bc4/711feda8-6c12-473e-8fb9-5ec9a2518e6f"
-      (reference "TP26") (unit 1) (value "TestPoint") (footprint "FootPrint:KEYSTONE_5005")
-    )
-    (path "/0e7bdf7b-adba-4bb1-b69d-a40568243bc4/f210b11d-b002-495e-82ac-da2ec6b898bf"
-      (reference "TP27") (unit 1) (value "TestPoint") (footprint "FootPrint:KEYSTONE_5005")
-    )
-    (path "/0e7bdf7b-adba-4bb1-b69d-a40568243bc4/0e9debc2-ba2a-43d9-bd46-154caf9b2977"
-      (reference "TP28") (unit 1) (value "TestPoint") (footprint "FootPrint:KEYSTONE_5005")
     )
     (path "/107edd66-5154-4ce5-b948-efcecf470704/4c0893a1-c8df-4368-913e-0101aabc96be"
       (reference "TP37") (unit 1) (value "TestPoint") (footprint "FootPrint:KEYSTONE_5005")
