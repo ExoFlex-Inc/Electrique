@@ -2761,14 +2761,8 @@
     (path "/f5065ace-7dce-4ee7-ae1c-5ffc1d0d003d/ecbfc988-3377-4ad0-b37b-854991182c60"
       (reference "D70") (unit 1) (value "TVS") (footprint "FootPrint:DPY2_TEX")
     )
-    (path "/f5065ace-7dce-4ee7-ae1c-5ffc1d0d003d/1906f6b7-ae9d-414a-b91d-5a3d8c171791"
-      (reference "D71") (unit 1) (value "TVS") (footprint "FootPrint:DPY2_TEX")
-    )
     (path "/f5065ace-7dce-4ee7-ae1c-5ffc1d0d003d/8433b6e3-36ef-4691-b792-9cb80198d989"
       (reference "D72") (unit 1) (value "TVS") (footprint "FootPrint:DPY2_TEX")
-    )
-    (path "/f5065ace-7dce-4ee7-ae1c-5ffc1d0d003d/b6324d88-7374-40c9-82c3-a84dedda2b82"
-      (reference "D73") (unit 1) (value "TVS") (footprint "FootPrint:DPY2_TEX")
     )
     (path "/f5065ace-7dce-4ee7-ae1c-5ffc1d0d003d/63cf0020-bb42-4dcc-a0b1-ba22119d777c"
       (reference "D74") (unit 1) (value "TVS") (footprint "FootPrint:DPY2_TEX")
