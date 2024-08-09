@@ -2066,7 +2066,7 @@
       (reference "C9") (unit 1) (value "0,47uF 6,3V X5R") (footprint "Capacitor_SMD:C_01005_0402Metric")
     )
     (path "/c976a2f7-7d0f-4504-8726-9da2ab397f5e/3746479f-aae2-424c-bb04-61f105f32e88"
-      (reference "C10") (unit 1) (value "47nF 6,3V X5R") (footprint "Capacitor_SMD:C_01005_0402Metric")
+      (reference "C10") (unit 1) (value "47nF 16V X7R") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/c976a2f7-7d0f-4504-8726-9da2ab397f5e/c6df20aa-667b-48df-850f-f5a78209eeec"
       (reference "C11") (unit 1) (value "1uF 10% 20V") (footprint "FootPrintLib:CAPMP3216X180N")
@@ -3288,9 +3288,6 @@
     )
     (path "/c976a2f7-7d0f-4504-8726-9da2ab397f5e/aa0d107f-319e-46b2-a535-72f32533392c"
       (reference "L3") (unit 1) (value "10uH 10% 150mA") (footprint "FootPrintLib:INDC2012X145N")
-    )
-    (path "/a015e859-e065-47e4-9796-a8e85722fd58/4b56ff5a-453d-4c91-9963-0a4b6b6bd001"
-      (reference "NT13") (unit 1) (value "NetTie_2") (footprint "NetTie:NetTie-2_THT_Pad0.3mm")
     )
     (path "/a277fdc8-c4ec-4343-9da9-d1578cb8824a/8e4b13f1-cdcc-483e-9930-1ddd14fa4b2b"
       (reference "Q1") (unit 1) (value "MOSFET 20V 200mA") (footprint "FootPrint:DIO_RB558WMF_ROM")
