@@ -319,7 +319,7 @@
           (name "A" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
-        (pin power_out line (at 27.94 -5.08 180) (length 2.54)
+        (pin unspecified line (at 27.94 -5.08 180) (length 2.54)
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )

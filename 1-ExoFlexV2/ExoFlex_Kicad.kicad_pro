@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 2.0,
-          "width": 4.1
+          "drill": 1.5,
+          "height": 2.25,
+          "width": 2.25
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -394,7 +394,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "ExoFlex_Kicad.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
