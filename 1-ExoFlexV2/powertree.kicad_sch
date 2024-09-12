@@ -2721,7 +2721,7 @@
     (effects (font (size 2.5 2.5) (thickness 0.5) bold) (justify left bottom))
     (uuid 7484bfe1-7701-4395-b88b-cf630f821b94)
   )
-  (text "Régulateur 5VNUM: 24V @ 1,45A\nRégulateur 5VA : 24 @ 110mA\nRégulateur -5VA : 24 @ 25mA\nContacteur : 24V @ 110mA\n\nTotal Current : 24V @ 1,695A"
+  (text "Régulateur 5VNUM: 24V @ 1,45A\nRégulateur 5VA : 24V @ 110mA\nRégulateur -5VA : 24V @ 25mA\nContacteur : 24V @ 110mA\n\nTotal Current : 24V @ 1,695A"
     (at 104.14 190.5 0)
     (effects (font (size 2.25 2.25) (thickness 0.45) bold) (justify left bottom))
     (uuid 9a8be707-beb8-4a1b-b927-b86c64bad675)
@@ -4150,7 +4150,7 @@
     (property "Value" "LDO -5VA" (id 1) (at 146.685 123.19 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "FootPrintLib:T03B_TEX" (id 2) (at 147.32 137.16 0)
+    (property "Footprint" "FootPrintLib:TO92260P482H934-3N" (id 2) (at 147.32 137.16 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "LM338T/NOPB" (id 3) (at 147.32 137.16 0)

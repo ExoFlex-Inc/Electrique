@@ -5321,7 +5321,7 @@
       (reference "U122") (unit 1) (value "MUX 8:1") (footprint "FootPrint:SOT403-1_NXP")
     )
     (path "/c976a2f7-7d0f-4504-8726-9da2ab397f5e/a9ae145c-e513-49db-bc66-6cec0bcfb4ee"
-      (reference "U123") (unit 1) (value "LDO -5VA") (footprint "FootPrintLib:T03B_TEX")
+      (reference "U123") (unit 1) (value "LDO -5VA") (footprint "FootPrintLib:TO92260P482H934-3N")
     )
     (path "/c976a2f7-7d0f-4504-8726-9da2ab397f5e/1cda67af-24e4-4d40-a2ab-1e5af684c434"
       (reference "U124") (unit 1) (value "LDO 5VA") (footprint "FootPrintLib:T03B_TEX")
