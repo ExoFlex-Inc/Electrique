@@ -1,4 +1,4 @@
-21252143665024989
+21260794371897581
 Arduino_MountingHole
 MountingHole_1.2mm
 Mounting Hole 2.1mm, no annular
@@ -60024,6 +60024,41 @@ Yellow 5381 Series LED
 0
 2
 2
+Lib_conn
+CUI_TB002-500-03BE
+
+
+0
+3
+3
+Lib_conn
+SAMTEC_SSW-108-01-G-D
+
+
+0
+16
+16
+Lib_conn
+SAMTEC_SSW-110-01-G-D
+
+
+0
+20
+20
+Lib_conn
+SAMTEC_SSW-115-01-G-D
+
+
+0
+30
+30
+Lib_conn
+SAMTEC_SSW-117-01-G-D
+
+
+0
+34
+34
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet

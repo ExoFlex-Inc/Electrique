@@ -2,4 +2,5 @@
   (lib (name "Arduino_MountingHole")(type "KiCad")(uri "${KICAD6_TEMPLATE_DIR}/Arduino_Mega/Arduino_MountingHole.pretty")(options "")(descr ""))
   (lib (name "FootPrintLib")(type "KiCad")(uri "${KIPRJMOD}/FootPrintLib.pretty")(options "")(descr ""))
   (lib (name "FootPrint")(type "KiCad")(uri "${KIPRJMOD}/FootPrintLib.pretty")(options "")(descr ""))
+  (lib (name "Lib_conn")(type "KiCad")(uri "C:/Users/labmi/Documents/Micah/US8/MG/Shield_MG/Lib_conn.pretty")(options "")(descr ""))
 )
